@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<VTKFile type="Collection" version="0.1" byte_order="LittleEndian">
+  <Collection>
+    <DataSet timestep="0" part="0" file="cylinder-000.vtu"/>
+    <DataSet timestep="6" part="0" file="cylinder-001.vtu"/>
+    <DataSet timestep="12" part="0" file="cylinder-002.vtu"/>
+    <DataSet timestep="18" part="0" file="cylinder-003.vtu"/>
+    <DataSet timestep="24" part="0" file="cylinder-004.vtu"/>
+    <DataSet timestep="30" part="0" file="cylinder-005.vtu"/>
+    <DataSet timestep="36" part="0" file="cylinder-006.vtu"/>
+    <DataSet timestep="42" part="0" file="cylinder-007.vtu"/>
+    <DataSet timestep="48" part="0" file="cylinder-008.vtu"/>
+    <DataSet timestep="54" part="0" file="cylinder-009.vtu"/>
+    <DataSet timestep="60" part="0" file="cylinder-010.vtu"/>
+    <DataSet timestep="66" part="0" file="cylinder-011.vtu"/>
+    <DataSet timestep="72" part="0" file="cylinder-012.vtu"/>
+    <DataSet timestep="78" part="0" file="cylinder-013.vtu"/>
+    <DataSet timestep="84" part="0" file="cylinder-014.vtu"/>
+  </Collection>
+</VTKFile>

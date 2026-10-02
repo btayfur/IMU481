@@ -1,0 +1,27 @@
+# Computer Programming for Structural Analysis — pinned environment (ROADMAP K19)
+#
+#   py -3.12 -m venv .venv
+#   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+#
+# WINDOWS / PYTHON VERSION — read this before changing anything.
+#
+# openseespy ships a compiled extension (openseespywin\opensees.pyd) that is
+# linked against ONE specific pythonNNN.dll.  If it does not match the
+# interpreter, the import fails with
+#
+#     ImportError: DLL load failed while importing opensees
+#     RuntimeError: Failed to import openseespy on Windows.
+#
+# which names neither the real cause nor the required version.  This course is
+# pinned to Python 3.12 because openseespy 3.8.0.0 is built for it.  Verified
+# working 2026-08-10 (see the smoke test in Week 1).
+#
+# Do NOT install openseespy into a system-wide Python alongside another
+# version — the failure mode above is what that produces.
+
+openseespy==3.8.0.0
+opsvis==1.3.7          # matplotlib model / mode / deformed-shape plots  (K20)
+opstool==1.0.26        # VTK export for ParaView, section tools          (K20)
+
+numpy==2.5.2
+matplotlib==3.11.1
